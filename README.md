@@ -8,7 +8,7 @@ The folder 'L_mu-L_tau' is the UFO model file and should be placed in the model-
 
 If one wants to change the parameters of the model, it is recommended to do this in the first few lines of the file 'writeParameters.py'. The parameters 'M_ee, V_emu, V_etau, M_mutau, Xi, f_e, f_mu, f_tau' are Majorana and Dirac masses of the RH (and LH) neutrinos. They should be chosen to agree with neutrino oscillations. Therefore, two datasets of allowed values are given for the general case ('generalPoints') and the UV complete theory ('uvPoints', valid up to 10^16 GeV according to one-loop RG equations). We provide the corresponding heavy neutrino masses such that a choice can be made reasonably.
 
-The other parameters are explained in the following (one has to choose these in agreement with experiments): 
+The other parameters are explained in the following (one has to choose these in agreement with experiments):   
 	'MZp':mass of the Z' [GeV]  
 	'gmutau': new gauge coupling  
 	'MH2': mass of the Lmu-Ltau charged Higgs boson [GeV]  
